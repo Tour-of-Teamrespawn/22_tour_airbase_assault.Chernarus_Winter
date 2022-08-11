@@ -1,0 +1,14 @@
+TOUR_fnc_moveC130 = compile preProcessFileLineNumbers "scripts\functions\fn_moveC130.sqf";
+TOUR_fnc_noiseC130 = compile preProcessFileLineNumbers "scripts\functions\fn_noiseC130.sqf";
+TOUR_fnc_skillAI = compile preProcessFileLineNumbers "scripts\functions\fn_skillAI.sqf";
+TOUR_fnc_tankCrew = compile preProcessFileLineNumbers "scripts\functions\fn_tankCrew.sqf";
+TOUR_fnc_Guards = compile preProcessFileLineNumbers "scripts\functions\fn_guards.sqf";
+TOUR_fnc_Guards2 = compile preProcessFileLineNumbers "scripts\functions\fn_guards2.sqf";
+TOUR_fnc_telekResponse = compile preProcessFileLineNumbers "scripts\functions\fn_telekResponse.sqf";
+TOUR_fnc_GAZResponse = compile preProcessFileLineNumbers "scripts\functions\fn_GAZResponse.sqf";
+TOUR_fnc_uralResponse = compile preProcessFileLineNumbers "scripts\functions\fn_uralResponse.sqf";
+TOUR_fnc_rndPatrol = compile preProcessFileLineNumbers "scripts\functions\fn_rndPatrol.sqf";
+TOUR_fnc_mkrPatrols = compile preProcessFileLineNumbers "scripts\functions\fn_mkrPatrols.sqf";
+TOUR_fnc_infoText = compile preProcessFileLineNumbers "scripts\functions\fn_infoText.sqf";
+TOUR_fnc_playerLoadouts = compile preProcessFileLineNumbers "scripts\functions\fn_playerLoadouts.sqf";
+TOUR_fnc_startPos = compile preProcessFileLineNumbers "scripts\functions\fn_startPos.sqf";
