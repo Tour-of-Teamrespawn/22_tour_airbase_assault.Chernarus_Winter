@@ -230,7 +230,6 @@ if (!isDedicated) then
 	sleep 0.2;
 	if (((player worldtomodel getposATL TOUR_c130) select 2) > 0.5) then 
 	{
-			hint "ran";
 		player setvelocity [0,270*1.0,0]; // was 270*0.8 
 	};
 

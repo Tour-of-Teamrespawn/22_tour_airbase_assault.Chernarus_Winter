@@ -1,13 +1,26 @@
 // by ALIAS
 // SNOW STORM SCRIPT DEMO
 // Tutorial: https://www.youtube.com/aliascartoons
-
+ // [true, 6000, 15, true, 10, false, true, true, false, true] execvm "AL_snowstorm\al_snow.sqf";
 if (!isServer) exitWith {};
 params ["_snowfall","_duration_storm","_ambient_sounds_al","_breath_vapors","_snow_burst","_effect_on_objects","_vanilla_fog","_local_fog","_intensifywind","_unitsneeze"];
 [] execVM "AL_snowstorm\alias_hunt.sqf"; waitUntil {!isNil "hunt_alias"};
 if (_vanilla_fog) then {al_foglevel = fog; publicVariable "al_foglevel"; 60 setFog [1,0.0145,0.5]};
 [_duration_storm] spawn {params ["_duration_storm"];al_snowstorm_om=true; publicvariable "al_snowstorm_om"; sleep _duration_storm; al_snowstorm_om=false; publicvariable "al_snowstorm_om"; if (!isNil "al_foglevel") then {60 setFog al_foglevel}};
 sleep 5;
+[]SPAWN 
+{
+	sleep 300;
+	while {true} do 
+	{
+		_sleep = (120 + (ceil random 180));
+		_sleep setFog [1,0.01,0.5];
+		sleep _sleep;
+		_sleep = (900 + (ceil random 300));
+		_sleep setFog [1,0.0145,0.5];
+		sleep _sleep;
+	};
+};
 ["AL_snowstorm\al_check_pos.sqf"] remoteExec ["execVM",0,true];
 if (_local_fog) then {["AL_snowstorm\medium_fog.sqf"] remoteExec ["execVM",0,true]};
 if (_ambient_sounds_al>0) then {[_ambient_sounds_al] execvm "AL_snowstorm\umblator.sqf"};
@@ -20,15 +33,5 @@ if (_intensifywind) then {
 	al_windlevel	= wind;	for "_i" from 1 to 5 step 0.2 do {setWind [(al_windlevel#0)*_i,(al_windlevel#1)*_i,true]; sleep 4};
 	waitUntil {sleep 60; !al_snowstorm_om};
 	al_windlevel	= wind;	for "_i" from 1 to 5 step 0.1 do {setWind [(al_windlevel#0)/_i,(al_windlevel#1)/_i,true]; sleep 4};
-
-sleep 300;
-while {true} do 
-{
-	_sleep = (120 + (ceil random 180));
-	_sleep setFog [1,0.01,0.5]};
-	sleep _sleep;
-	_sleep = (900 + (ceil random 300));
-	_sleep setFog [1,0.0145,0.5];
-	sleep _sleep;
 };
 

@@ -6,7 +6,7 @@ class Header
 };
 
 author = "Mr.Ben [Tour]";
-briefingName = "[Tour] Airbase Assault (RC1)";
+briefingName = "22 [Tour] Airbase Assault v0.75";
 onLoadMissionTime = true;
 enableItemsDropping = 0;
 disabledAI = true; 
@@ -372,3 +372,8 @@ class CfgSounds
 		titles[] = {1, ""};
 	};	
 };
+
+
+
+
+

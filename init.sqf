@@ -1,3 +1,7 @@
+/* 
+###MISSION_VERSION 0.75
+*/
+
 _d = execVM "scripts\general\debugRPT.sqf";
 waitUntil {scriptDone _d};
 
@@ -27,7 +31,7 @@ if (isServer) then
 	TOUR_lamp_2 setpos (TOUR_C130 modelToWorld [-0.00585938,2.38184,-1.1]); TOUR_lamp_2 setVectorUp  [0,0,-1.1];
 };
 
-[true, 6000, 15, true, 10, false, true, true, false, true] execvm "AL_snowstorm\al_snow.sqf";
+[true, 60, 15, true, 90, true, true, true, false, true] execvm "AL_snowstorm\al_snow.sqf";
 
 execVM "scripts\general\intro.sqf";
 
@@ -91,3 +95,7 @@ _si =
 ] execVM "scripts\TOUR_SI\TOUR_SI_init.sqf";
 
 TOUR_init_complete = true;
+
+
+
+
