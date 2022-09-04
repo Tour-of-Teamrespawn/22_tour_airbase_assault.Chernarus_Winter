@@ -10,6 +10,7 @@ TOUR_officer addAction ["Report In", "scripts\control\endingAction.sqf", 0, 10, 
 player call TOUR_fnc_playerLoadouts;
 [player] call zade_boc_fnc_actionOnChest;
 player addBackpack "B_Parachute";
+execVM "scripts\general\radioChannelSetup.sqf";
 
 sleep 0.1;
 _goggles = goggles player;

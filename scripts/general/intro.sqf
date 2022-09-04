@@ -211,6 +211,10 @@ if (!isDedicated) then
 	{_x enableSimulation true;}forEach (playableUnits + switchableUnits);
 	sleep 5;
 	TOUR_introcomplete = true;
+	if (isServer) then 
+	{
+		deleteVehicle TOUR_C130Intro;
+	};
 	cutText ["", "BLACK IN", 5];
 	"dynamicBlur" ppEffectAdjust [0];
 	"dynamicBlur" ppEffectCommit 3;
@@ -250,4 +254,8 @@ if (!isDedicated) then
 		};
 	};
 	
+}ELSE 
+{
+	sleep 80;
+	deleteVehicle TOUR_C130Intro;
 };

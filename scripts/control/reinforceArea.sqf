@@ -70,7 +70,7 @@ if (("TOUR_objComms" call A2S_getTaskState) != "SUCCEEDED") then
 {
 	sleep (100 + (ceil random 200));
 	_pos = [getMarkerPos "TOUR_mkr_heliSpawn" select 0, getMarkerPos "TOUR_mkr_heliSpawn" select 1, 100 ];
-	_unit = createvehicle ["rhs_mi24p_vdv", _pos, [], 180, "FLY"];
+	_unit = createvehicle ["rhs_mi24v_vdv", _pos, [], 180, "FLY"];
 	_grp = createVehicleCrew _unit;
 	_unit setPos _pos;
 	waitUntil {count units _grp > 0};

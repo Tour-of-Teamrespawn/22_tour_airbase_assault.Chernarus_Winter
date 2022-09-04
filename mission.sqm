@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=581;
+		nextID=583;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={11376.122,488.69043,11663.782};
-		dir[]={0.15010265,-0.35701749,0.92203659};
-		up[]={0.057371423,0.93407452,0.35241544};
-		aside[]={0.98708606,-4.5392153e-007,-0.16069421};
+		pos[]={12400.646,183.27635,12489.325};
+		dir[]={0.70297325,-0.32638088,0.63194293};
+		up[]={0.24274005,0.94522387,0.21821439};
+		aside[]={0.66855228,2.575398e-007,-0.74369442};
 	};
 };
 binarizationWanted=0;
@@ -713,7 +713,6 @@ class Mission
 						init="this setgroupID [""Broadsword Actual""];";
 						name="TOUR_Player_1";
 						description="1: Officer@Broadsword Actual";
-						isPlayer=1;
 						class Inventory
 						{
 							class primaryWeapon
@@ -1118,6 +1117,7 @@ class Mission
 						init="this setgroupID [""BroadSword One""];";
 						name="TOUR_player_3";
 						description="1: Team Leader@Broadsword One";
+						isPlayer=1;
 						isPlayable=1;
 						class Inventory
 						{
@@ -2067,7 +2067,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						init="this setgroupID [""BroadSword One""];";
+						init="this setgroupID [""BroadSword Two""];";
 						name="TOUR_player_7";
 						description="1: Team Leader@Broadsword Two";
 						isPlayable=1;
@@ -2142,7 +2142,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="this setgroupID [""BroadSword One""];";
+						init="this setgroupID [""BroadSword Two""];";
 						name="TOUR_player_8";
 						isPlayable=1;
 					};
@@ -2216,7 +2216,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="this setgroupID [""BroadSword One""];";
+						init="this setgroupID [""BroadSword Two""];";
 						name="TOUR_player_9";
 						isPlayable=1;
 					};
@@ -2290,7 +2290,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="this setgroupID [""BroadSword One""];";
+						init="this setgroupID [""BroadSword Two""];";
 						name="TOUR_player_10";
 						isPlayable=1;
 					};
@@ -2378,7 +2378,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						init="this setgroupID [""BroadSword One""];";
+						init="this setgroupID [""BroadSword Three""];";
 						name="TOUR_player_11";
 						description="1: Team Leader@Broadsword Three";
 						isPlayable=1;
@@ -2454,7 +2454,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="this setgroupID [""BroadSword One""];";
+						init="this setgroupID [""BroadSword Three""];";
 						name="TOUR_player_12";
 						isPlayable=1;
 					};
@@ -2528,7 +2528,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="this setgroupID [""BroadSword One""];";
+						init="this setgroupID [""BroadSword Three""];";
 						name="TOUR_player_13";
 						isPlayable=1;
 					};
@@ -2602,7 +2602,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="this setgroupID [""BroadSword One""];";
+						init="this setgroupID [""BroadSword Three""];";
 						name="TOUR_player_14";
 						isPlayable=1;
 					};
@@ -2691,7 +2691,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						init="this setgroupID [""BroadSword One""];";
+						init="this setgroupID [""BroadSword Four""];";
 						name="TOUR_player_15";
 						description="1: Team Leader@Broadsword Four";
 						isPlayable=1;
@@ -2766,7 +2766,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="this setgroupID [""BroadSword One""];";
+						init="this setgroupID [""BroadSword Four""];";
 						name="TOUR_player_16";
 						isPlayable=1;
 					};
@@ -2841,7 +2841,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="this setgroupID [""BroadSword One""];";
+						init="this setgroupID [""BroadSword Four""];";
 						name="TOUR_player_17";
 						isPlayable=1;
 					};
@@ -2916,7 +2916,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="this setgroupID [""BroadSword One""];";
+						init="this setgroupID [""BroadSword Four""];";
 						name="TOUR_player_18";
 						isPlayable=1;
 					};
