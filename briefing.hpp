@@ -6,7 +6,7 @@ player createDiaryRecord
 		Tour of Teamrespawn
 		<br />
 		<br />
-		Mission Design: Mr.Ben and YEAR 2022
+		Mission Design: Mr.Ben 2022
 		<br />
 		<br />
 		This is a remake of the original mission made for Arma 2.
@@ -58,25 +58,25 @@ player createDiaryRecord
 		<font size='20' align='center' color='#0080ff'>Default Radio Channels</font>
 		<br />
 		<br />	
-		<font size='16' color='#ffa500'>Lead:</font> PRC152 - Channel 1
+		<font size='16' color='#ffa500'>Lead:</font> PRC343 - Channel 1
 		<br />
 		<br />	
-		<font size='16' color='#ffa500'>Broadsword One:</font> PRC152 - Channel 2
+		<font size='16' color='#ffa500'>Broadsword One:</font> PRC343 - Channel 2
 		<br />
 		<br />
-		<font size='16' color='#ffa500'>Broadsword Two:</font> PRC152 - Channel 3
+		<font size='16' color='#ffa500'>Broadsword Two:</font> PRC343 - Channel 3
 		<br />
 		<br />
-		<font size='16' color='#ffa500'>Broadsword Three:</font> PRC152 - Channel 4
+		<font size='16' color='#ffa500'>Broadsword Three:</font> PRC343 - Channel 4
 		<br />
 		<br />
-		<font size='16' color='#ffa500'>Broadsword Four:</font> PRC152 - Channel 5
+		<font size='16' color='#ffa500'>Broadsword Four:</font> PRC343 - Channel 5
 		<br />
 		<br />
-		<font size='16' color='#ffa500'>Shrew One:</font> PRC152 - Channel 6		
+		<font size='16' color='#ffa500'>Shrew One:</font> PRC343 - Channel 6		
 		<br />
 		<br />
-		<font size='16' color='#ffa500'>Shrew Two:</font> PRC152 - Channel 7		
+		<font size='16' color='#ffa500'>Shrew Two:</font> PRC343 - Channel 7		
 		<br />
 		<br />
 		Long range intersquad communications PRC148 set to channel 1
