@@ -5,12 +5,12 @@ class Header
 	maxPlayers = 30; 
 };
 
-author = "Mr.Ben [Tour]";
+author = "Mr.Ben";
 overviewText = "British Special Forces Assist In Assaulting An Airbase";
 overviewTextLocked = "British Special Forces Assist In Assaulting An Airbase";
 onLoadMission = "Bugger Me It's Cold!";
 onLoadName = "[Tour] Airbase Assault"; 
-briefingName = "22 [Tour] Airbase Assault v0.75";
+briefingName = "26 [Tour] Airbase Assault v0.75";
 onLoadMissionTime = true;
 enableItemsDropping = 0;
 disabledAI = true; 
@@ -72,35 +72,35 @@ class CfgDebriefing
 		subtitle = "Objective Complete";
 		description = "You successfully captured the airstrip!";
 		pictureBackground = "img\ukflag.paa";
-		picture = "b_inf";
-		pictureColor[] = { 0.0, 0.0, 0.0, 1 };
+		picture = "img\UK_SAS.paa";
+		pictureColor[] = {};
 	};
 	class aborted
 	{
 		title = "Mission Failure";
 		subtitle = "Aborted";
-		description = "You failed to capture the airstrip!";
+		description = "Your returned to the aircraft carrier and aborted the mission. You failed to capture the airstrip!";
 		pictureBackground = "img\ukflag.paa";
-		picture = "o_inf";
-		pictureColor[] = { 0.6,0.1,0.2,1  };
+		picture = "UK3CB_Factions\addons\UK3CB_Factions_CHD\Flag\chd_flag_red_marker_co.paa";
+		pictureColor[] = {};
 	};
 	class kia
 	{
 		title = "Mission Failure";
 		subtitle = "KIA";
-		description = "You failed to capture the airstrip!";
-		pictureBackground = "img\ukflag.paa";
-		picture = "o_inf";
-		pictureColor[] = { 0.6,0.1,0.2,1 };
+		description = "Your men were all killed in action!";
+		pictureBackground = "img\kia.paa";
+		picture = "UK3CB_Factions\addons\UK3CB_Factions_CHD\Flag\chd_flag_red_marker_co.paa";
+		pictureColor[] = {};
 	};
 	class chopper
 	{
 		title = "Mission Failure";
 		subtitle = "Extraction Helictopers Destroyed";
 		description = "You could not extract to complete the mission!";
-		pictureBackground = "img\ukflag.paa";
-		picture = "o_inf";
-		pictureColor[] = { 0.6,0.1,0.2,1  };
+		pictureBackground = "img\chopper.paa";
+		picture = "UK3CB_Factions\addons\UK3CB_Factions_CHD\Flag\chd_flag_red_marker_co.paa";
+		pictureColor[] = {};
 	};
 };
 

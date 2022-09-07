@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=513;
+	toggles=641;
 	class ItemIDProvider
 	{
-		nextID=583;
+		nextID=584;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={12400.646,183.27635,12489.325};
-		dir[]={0.70297325,-0.32638088,0.63194293};
-		up[]={0.24274005,0.94522387,0.21821439};
-		aside[]={0.66855228,2.575398e-007,-0.74369442};
+		pos[]={12672.956,340.15668,12459.54};
+		dir[]={0.58039325,-0.1982961,0.78982431};
+		up[]={0.11742146,0.98014218,0.15979223};
+		aside[]={0.80582631,7.4505806e-009,-0.59215212};
 	};
 };
 binarizationWanted=0;
@@ -713,6 +713,7 @@ class Mission
 						init="this setgroupID [""Broadsword Actual""];";
 						name="TOUR_Player_1";
 						description="1: Officer@Broadsword Actual";
+						isPlayable=1;
 						class Inventory
 						{
 							class primaryWeapon
@@ -3685,7 +3686,7 @@ class Mission
 			side="Civilian";
 			class Entities
 			{
-				items=8;
+				items=4;
 				class Item0
 				{
 					dataType="Object";
@@ -3846,198 +3847,6 @@ class Mission
 						isPlayable=1;
 					};
 					id=88;
-					type="C_man_1";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male05GRE";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11581.819,313.33426,11261.296};
-					};
-					side="Civilian";
-					flags=5;
-					class Attributes
-					{
-						name="TOUR_spec_5";
-						description="Spectator";
-						isPlayable=1;
-					};
-					id=90;
-					type="C_man_1";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male05GRE";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item5
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11583.301,313.3605,11262.258};
-					};
-					side="Civilian";
-					flags=5;
-					class Attributes
-					{
-						name="TOUR_spec_6";
-						description="Spectator";
-						isPlayable=1;
-					};
-					id=92;
-					type="C_man_1";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male05GRE";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item6
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11585.021,313.34283,11263.314};
-					};
-					side="Civilian";
-					flags=5;
-					class Attributes
-					{
-						name="TOUR_spec_7";
-						description="Spectator";
-						isPlayable=1;
-					};
-					id=94;
-					type="C_man_1";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male05GRE";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item7
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11586.073,313.36115,11264.044};
-					};
-					side="Civilian";
-					flags=5;
-					class Attributes
-					{
-						name="TOUR_spec_8";
-						description="Spectator";
-						isPlayable=1;
-					};
-					id=96;
 					type="C_man_1";
 					class CustomAttributes
 					{
@@ -8018,11 +7827,11 @@ class Mission
 		class Item185
 		{
 			dataType="Marker";
-			position[]={12070,125.14893,12902.5};
+			position[]={12028.02,108.4082,13195.447};
 			name="TOUR_mkr_para1_2";
 			type="Empty";
 			id=397;
-			atlOffset=-17.747704;
+			atlOffset=-16.09259;
 		};
 		class Item186
 		{
@@ -8053,11 +7862,11 @@ class Mission
 		class Item189
 		{
 			dataType="Marker";
-			position[]={12069.5,149.92065,12439.5};
+			position[]={11988.535,137.05469,12341.763};
 			name="TOUR_mkr_para2_2";
 			type="Empty";
 			id=401;
-			atlOffset=-0.71269226;
+			atlOffset=-0.94497681;
 		};
 		class Item190
 		{
@@ -8082,8 +7891,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={12064.674,142.21027,12913.783};
-				angles[]={0.079830162,0,6.2432065};
+				position[]={12026.54,124.77859,13195.053};
+				angles[]={0.010664274,0,6.0986433};
 			};
 			side="Empty";
 			class Attributes
@@ -8097,15 +7906,16 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={12054.42,151.36784,12444.789};
-				angles[]={0.079830162,0,6.2432065};
+				position[]={11992.235,137.26175,12335.196};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=408;
 			type="Land_HelipadEmpty_F";
+			atlOffset=-1.5258789e-005;
 		};
 		class Item194
 		{
