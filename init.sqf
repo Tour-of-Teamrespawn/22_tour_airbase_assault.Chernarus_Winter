@@ -8,9 +8,6 @@ waitUntil {scriptDone _d};
 _p = execVM "params.sqf";
 waitUntil {scriptDone _p};
 
-_a = TOUR_logic execVM "a2s_multitask.sqf";
-waitUntil {scriptDone _a};
-
 enableRadio false;
 {
 	_x setVariable ["BIS_noCoreConversations",true];

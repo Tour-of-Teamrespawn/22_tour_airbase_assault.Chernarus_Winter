@@ -16,7 +16,7 @@ sleep 5;
 
 _success = if 
 				(
-					("TOUR_objAirstrip" call A2S_taskState == "SUCCEEDED")
+					("TOUR_objAirstrip" call BIS_taskState == "SUCCEEDED")
 				) 
 				then {true} else {false};
 

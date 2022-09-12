@@ -3,8 +3,6 @@ waitUntil {player == player};
 
 #include "briefing.hpp"
 
-[] call A2S_tasksSync;
-
 TOUR_officer addAction ["Report In", "scripts\control\endingAction.sqf", 0, 10, true, false, "", "(isNil {missionNameSpace getVariable 'TOUR_reportIn'}) && (player==leader group player) && (player distance _target < 2)"];
 
 player call TOUR_fnc_playerLoadouts;
