@@ -66,7 +66,7 @@ sleep 5;
 
 [31, TOUR_GAZ_2, false] call TOUR_fnc_GAZResponse;
 
-if (("TOUR_objComms" call A2S_getTaskState) != "SUCCEEDED") then 
+if (("TOUR_objComms" call BIS_fnc_TaskState) != "SUCCEEDED") then 
 {
 	sleep (100 + (ceil random 200));
 	_pos = [getMarkerPos "TOUR_mkr_heliSpawn" select 0, getMarkerPos "TOUR_mkr_heliSpawn" select 1, 100 ];

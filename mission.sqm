@@ -8,7 +8,7 @@ class EditorData
 	toggles=641;
 	class ItemIDProvider
 	{
-		nextID=584;
+		nextID=586;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={12475.176,441.43964,12188.383};
-		dir[]={-0.24669625,-0.52373224,0.81538057};
-		up[]={-0.1516673,0.85188293,0.5012908};
-		aside[]={0.95715094,7.4505806e-009,0.28958938};
+		pos[]={11879.83,228.08505,12644.802};
+		dir[]={0.90950489,-0.21853042,-0.35361776};
+		up[]={0.20367734,0.97583008,-0.079190254};
+		aside[]={-0.36237633,7.4505806e-009,-0.93203193};
 	};
 };
 binarizationWanted=0;
@@ -606,7 +606,6 @@ class ScenarioData
 	author="Mr.Ben";
 	overviewText="UK special forces assist paratroopers in capturing a strategic airfield";
 	overviewTextLocked="UK special forces assist paratroopers in capturing a strategic airfield";
-	overViewPicture="img\ukflag.paa";
 	onLoadMission="UK special forces assist paratroopers in capturing a strategic airfield";
 	disabledAI=1;
 	class Header
@@ -690,7 +689,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=296;
+		items=297;
 		class Item0
 		{
 			dataType="Group";
@@ -9761,6 +9760,36 @@ class Mission
 			name="TOUR_mkr_guard_24";
 			type="Empty";
 			id=580;
+		};
+		class Item296
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={12206.208,141.35512,12882.403};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=585;
+					type="B_support_Mort_F";
+					atlOffset=4.5776367e-005;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=584;
+			atlOffset=4.5776367e-005;
 		};
 	};
 };

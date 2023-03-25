@@ -10,12 +10,12 @@ overviewText = "British Special Forces Assist In Assaulting An Airbase";
 overviewTextLocked = "British Special Forces Assist In Assaulting An Airbase";
 onLoadMission = "Bugger Me It's Cold!";
 onLoadName = "[Tour] Airbase Assault"; 
+loadScreen = "img\mainPic.paa";
 briefingName = "26 [Tour] Airbase Assault v0.75";
 onLoadMissionTime = true;
 enableItemsDropping = 0;
 disabledAI = true; 
 enableDebugConsole = 1;
-
 respawn = 3;
 respawnDelay = 30;
 respawnDialog = 1;
