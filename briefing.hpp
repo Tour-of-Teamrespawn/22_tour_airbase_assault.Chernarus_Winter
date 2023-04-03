@@ -6,7 +6,7 @@ player createDiaryRecord
 		Tour of Teamrespawn
 		<br />
 		<br />
-		Mission Design: Mr.Ben 2022
+		Mission Design: Mr.Ben 2023
 		<br />
 		<br />
 		This is a remake of the original mission made for Arma 2.
@@ -19,18 +19,24 @@ player createDiaryRecord
 
 // give information about the actual mission itself, such as any unique mechanisms to the missions, and how to abort and complete the mission.
 player createDiaryRecord 
-["Diary", ["Mission", 
+["Diary", ["Mission & Mechanics", 
 	"
 		You can access the support menu using a PRC148, available to group leaders only.
 		<br />
 		<br />
-		Walk out of the back of the C130 to begin your HALO jump. You will need to manually open the chute around 150m above ground level. Your watch will indicate height above sea level, so be sure to use the reading with care in relation to your landing zones elevation from the map data. Once you land, drop the parachute from your inventory and add the backpack using the ACE self interaction to switch your equipment backpack from your front to your back. You can then access its inventory... AND WALK NORMALLY!
+		If HALO start is selected - walk out of the back of the C130 to begin your HALO jump. You will need to manually open the chute around 150m above ground level. Your watch will indicate height above sea level, so be sure to use the reading with care in relation to your landing zones elevation from the map data. Once you land, drop the parachute from your inventory and add the backpack using the ACE self interaction to switch your equipment backpack from your front to your back. You can then access its inventory... AND WALK NORMALLY!
 		<br />
 		<br />
-		The mission can be ended at any point by returning and reporting in the the <marker name=""TOUR_mkr_objReturn"">officer</marker>, whether the objectives are completed or not. Use the extraction choppers via the support menu to return to base. If the helictopers are destroyed, you will fail the mission!
+		If SEA start is selected - you will begin in subs. There will be an option using ACE interaction on the sub you start in to swap over your gear.
 		<br />
 		<br />
-		The main objective is to secure the airstrip. The additional tasks will aid you massively in doing so.
+		The more the stealthy approach to the mission, the less reinforcements and resistance you will encounter. The ultimate goal is to fuel up the plane and leave, but achieving all the objectives will give a far greater chance of success.
+		<br />
+		<br />
+		A notepad has been given for you to use. The defector will likely give you lots of information. Be sure to write it down!
+		<br />
+		<br />
+		The mission can be ended at any point by escaping to the fishing boat to the north. Once all the remaining team is there, the mission will end.
 	"
 ]];
 
@@ -41,7 +47,7 @@ player createDiaryRecord
 		<font size='20' align='center' color='#0080ff'>Artillery</font>
 		<br />
 		<br />
-		 Smokes can be called via the support menu providing you have a PRC148 radio. You can also call ONE laser guided artillery, however you will need a FAC with a laser marker.
+		 Smokes can be called via the support menu providing you have a PRC148 radio. You can also call THREE laser guided artillery, however you will need a JTAC backpack with a laser marker.
 		 <br />
 		<br />
 		<font size='20' align='center' color='#0080ff'>Weapons</font>
@@ -58,25 +64,19 @@ player createDiaryRecord
 		<font size='20' align='center' color='#0080ff'>Default Radio Channels</font>
 		<br />
 		<br />	
-		<font size='16' color='#ffa500'>Lead:</font> PRC343 - Channel 1
+		<font size='16' color='#ffa500'>Red Wolf Actual:</font> PRC343 - Channel 5
 		<br />
 		<br />	
-		<font size='16' color='#ffa500'>Broadsword One:</font> PRC343 - Channel 2
+		<font size='16' color='#ffa500'>Red Wolf One:</font> PRC343 - Channel 1
 		<br />
 		<br />
-		<font size='16' color='#ffa500'>Broadsword Two:</font> PRC343 - Channel 3
+		<font size='16' color='#ffa500'>Red Wolf Two:</font> PRC343 - Channel 2
 		<br />
 		<br />
-		<font size='16' color='#ffa500'>Broadsword Three:</font> PRC343 - Channel 4
+		<font size='16' color='#ffa500'>Red Wolf Three:</font> PRC343 - Channel 3
 		<br />
 		<br />
-		<font size='16' color='#ffa500'>Broadsword Four:</font> PRC343 - Channel 5
-		<br />
-		<br />
-		<font size='16' color='#ffa500'>Shrew One:</font> PRC343 - Channel 6		
-		<br />
-		<br />
-		<font size='16' color='#ffa500'>Shrew Two:</font> PRC343 - Channel 7		
+		<font size='16' color='#ffa500'>Red Wolf Four:</font> PRC343 - Channel 4
 		<br />
 		<br />
 		Long range intersquad communications PRC148 set to channel 1
