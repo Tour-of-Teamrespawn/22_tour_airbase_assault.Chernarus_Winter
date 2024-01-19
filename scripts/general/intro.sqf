@@ -5,12 +5,13 @@ if (isServer) then
 	{
 		sleep 3;
 		{ 
+			[[_x], {(_this select 0) allowDamage false;}] remoteExec ["BIS_fnc_Spawn", 0, false];
 			if (side _x == WEST) then 
 			{
 				_position = _x call TOUR_fnc_startPos;
 				sleep 1;
 				_x  setpos (TOUR_C130 modeltoworld _position);
-				[[_x], {sleep 1; (_this select 0) switchMove "stand"; sleep 1; doStop (_this select 0);}] remoteExec ["BIS_fnc_Spawn", 0, false];
+				[[_x], {sleep 1; (_this select 0) switchMove "stand"; sleep 1; doStop (_this select 0); (_this select 0) allowDamage true;}] remoteExec ["BIS_fnc_Spawn", 0, false];
 			};
 		}forEach (playableUnits + switchableUnits);
 	}; 

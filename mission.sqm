@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={11879.83,228.08505,12644.802};
-		dir[]={0.90950489,-0.21853042,-0.35361776};
-		up[]={0.20367734,0.97583008,-0.079190254};
-		aside[]={-0.36237633,7.4505806e-009,-0.93203193};
+		pos[]={11496.281,316.16644,11242.452};
+		dir[]={-0.13621671,-0.3590894,0.92330915};
+		up[]={-0.05240953,0.93330318,0.35524422};
+		aside[]={0.98929179,-3.7252903e-009,0.1459512};
 	};
 };
 binarizationWanted=0;
@@ -892,7 +892,7 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=9;
+									items=10;
 									class Item0
 									{
 										name="ACRE_PRC152";
@@ -906,7 +906,7 @@ class Mission
 									class Item2
 									{
 										name="ACE_fieldDressing";
-										count=10;
+										count=5;
 									};
 									class Item3
 									{
@@ -931,12 +931,17 @@ class Mission
 									class Item7
 									{
 										name="ACE_tourniquet";
-										count=1;
+										count=2;
 									};
 									class Item8
 									{
 										name="ACE_MapTools";
 										count=1;
+									};
+									class Item9
+									{
+										name="ACE_quikclot";
+										count=5;
 									};
 								};
 							};
@@ -1117,7 +1122,6 @@ class Mission
 						init="this setgroupID [""BroadSword One""];";
 						name="TOUR_player_3";
 						description="1: Team Leader@Broadsword One";
-						isPlayer=1;
 						isPlayable=1;
 						class Inventory
 						{
@@ -1158,7 +1162,7 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=8;
+									items=9;
 									class Item0
 									{
 										name="ACE_bloodIV_500";
@@ -1167,7 +1171,7 @@ class Mission
 									class Item1
 									{
 										name="ACE_fieldDressing";
-										count=10;
+										count=5;
 									};
 									class Item2
 									{
@@ -1192,12 +1196,17 @@ class Mission
 									class Item6
 									{
 										name="ACE_tourniquet";
-										count=1;
+										count=2;
 									};
 									class Item7
 									{
 										name="ACE_Flashlight_XL50";
 										count=1;
+									};
+									class Item8
+									{
+										name="ACE_quikclot";
+										count=5;
 									};
 								};
 							};
@@ -1390,7 +1399,7 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=6;
+									items=7;
 									class Item0
 									{
 										name="ACRE_PRC152";
@@ -1399,7 +1408,7 @@ class Mission
 									class Item1
 									{
 										name="ACE_fieldDressing";
-										count=10;
+										count=5;
 									};
 									class Item2
 									{
@@ -1414,12 +1423,17 @@ class Mission
 									class Item4
 									{
 										name="ACE_tourniquet";
-										count=1;
+										count=2;
 									};
 									class Item5
 									{
 										name="ACE_EntrenchingTool";
 										count=1;
+									};
+									class Item6
+									{
+										name="ACE_quikclot";
+										count=5;
 									};
 								};
 							};
@@ -1624,7 +1638,7 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=7;
+									items=8;
 									class Item0
 									{
 										name="ACRE_PRC152";
@@ -1633,7 +1647,7 @@ class Mission
 									class Item1
 									{
 										name="ACE_fieldDressing";
-										count=10;
+										count=5;
 									};
 									class Item2
 									{
@@ -1648,7 +1662,7 @@ class Mission
 									class Item4
 									{
 										name="ACE_tourniquet";
-										count=1;
+										count=2;
 									};
 									class Item5
 									{
@@ -1659,6 +1673,11 @@ class Mission
 									{
 										name="ACE_epinephrine";
 										count=1;
+									};
+									class Item7
+									{
+										name="ACE_quikclot";
+										count=5;
 									};
 								};
 							};
@@ -1701,11 +1720,11 @@ class Mission
 								isBackpack=1;
 								class ItemCargo
 								{
-									items=10;
+									items=16;
 									class Item0
 									{
 										name="ACE_fieldDressing";
-										count=30;
+										count=10;
 									};
 									class Item1
 									{
@@ -1715,12 +1734,12 @@ class Mission
 									class Item2
 									{
 										name="ACE_bloodIV_250";
-										count=8;
+										count=4;
 									};
 									class Item3
 									{
 										name="ACE_bloodIV_500";
-										count=6;
+										count=4;
 									};
 									class Item4
 									{
@@ -1730,12 +1749,12 @@ class Mission
 									class Item5
 									{
 										name="ACE_epinephrine";
-										count=10;
+										count=5;
 									};
 									class Item6
 									{
 										name="ACE_morphine";
-										count=12;
+										count=10;
 									};
 									class Item7
 									{
@@ -1750,6 +1769,36 @@ class Mission
 									class Item9
 									{
 										name="UK3CB_BAF_LLM_Flashlight_Black";
+										count=1;
+									};
+									class Item10
+									{
+										name="ACE_elasticBandage";
+										count=10;
+									};
+									class Item11
+									{
+										name="ACE_packingBandage";
+										count=10;
+									};
+									class Item12
+									{
+										name="ACE_quikclot";
+										count=10;
+									};
+									class Item13
+									{
+										name="ACE_adenosine";
+										count=5;
+									};
+									class Item14
+									{
+										name="ACE_splint";
+										count=2;
+									};
+									class Item15
+									{
+										name="ACE_surgicalKit";
 										count=1;
 									};
 								};
@@ -1869,7 +1918,7 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=7;
+									items=8;
 									class Item0
 									{
 										name="ACRE_PRC152";
@@ -1898,12 +1947,17 @@ class Mission
 									class Item5
 									{
 										name="ACE_fieldDressing";
-										count=10;
+										count=5;
 									};
 									class Item6
 									{
 										name="ACE_tourniquet";
 										count=1;
+									};
+									class Item7
+									{
+										name="ACE_quikclot";
+										count=5;
 									};
 								};
 							};
@@ -2071,6 +2125,169 @@ class Mission
 						name="TOUR_player_7";
 						description="1: Team Leader@Broadsword Two";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="UK3CB_BAF_L119A1_SpecterLDS_UKUGL";
+								optics="RKSL_optic_LDS";
+								muzzle="UK3CB_BAF_Silencer_L85";
+								flashlight="UK3CB_BAF_LLM_IR_Black";
+								firemode="UK3CB_BAF_L119A1_SpecterLDS_UKUGL:Single";
+								class primaryMuzzleMag
+								{
+									name="UK3CB_BAF_556_30Rnd_T";
+									ammoLeft=30;
+								};
+								class secondaryMuzzleMag
+								{
+									name="UK3CB_BAF_1Rnd_HEDP_Grenade_Shell";
+									ammoLeft=1;
+								};
+							};
+							class handgun
+							{
+								name="UK3CB_BAF_L131A1";
+								class primaryMuzzleMag
+								{
+									name="UK3CB_BAF_9_17Rnd";
+									ammoLeft=17;
+								};
+							};
+							class binocular
+							{
+								name="Rangefinder";
+							};
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_Smock_Arctic";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=9;
+									class Item0
+									{
+										name="ACE_bloodIV_500";
+										count=1;
+									};
+									class Item1
+									{
+										name="ACE_fieldDressing";
+										count=5;
+									};
+									class Item2
+									{
+										name="ACRE_PRC148";
+										count=1;
+									};
+									class Item3
+									{
+										name="ACRE_PRC152";
+										count=1;
+									};
+									class Item4
+									{
+										name="ACE_EarPlugs";
+										count=1;
+									};
+									class Item5
+									{
+										name="ACE_epinephrine";
+										count=1;
+									};
+									class Item6
+									{
+										name="ACE_tourniquet";
+										count=2;
+									};
+									class Item7
+									{
+										name="ACE_Flashlight_XL50";
+										count=1;
+									};
+									class Item8
+									{
+										name="ACE_quikclot";
+										count=5;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="UK3CB_BAF_V_PLCE_Webbing_Plate_Winter";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="UK3CB_BAF_556_30Rnd_T";
+										count=10;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="UK3CB_BAF_1Rnd_HEDP_Grenade_Shell";
+										count=12;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="UK3CB_BAF_1Rnd_SmokeOrange_Grenade_shell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="UK3CB_BAF_1Rnd_SmokeBlue_Grenade_shell";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="UK3CB_BAF_B_Bergen_Arctic_SL_A";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=3;
+									class Item0
+									{
+										name="rhs_mag_m67";
+										count=3;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="UK3CB_BAF_556_30Rnd_T";
+										count=5;
+										ammoLeft=30;
+									};
+									class Item2
+									{
+										name="UK3CB_BAF_1Rnd_HE_Grenade_Shell";
+										count=6;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="UK3CB_BAF_LLM_Flashlight_Black";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ACE_Altimeter";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							headgear="UK3CB_BAF_H_Mk7_Win_A";
+						};
 					};
 					id=43;
 					type="UK3CB_BAF_SC_Arctic_REC";
@@ -2382,6 +2599,169 @@ class Mission
 						name="TOUR_player_11";
 						description="1: Team Leader@Broadsword Three";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="UK3CB_BAF_L119A1_SpecterLDS_UKUGL";
+								optics="RKSL_optic_LDS";
+								muzzle="UK3CB_BAF_Silencer_L85";
+								flashlight="UK3CB_BAF_LLM_IR_Black";
+								firemode="UK3CB_BAF_L119A1_SpecterLDS_UKUGL:Single";
+								class primaryMuzzleMag
+								{
+									name="UK3CB_BAF_556_30Rnd_T";
+									ammoLeft=30;
+								};
+								class secondaryMuzzleMag
+								{
+									name="UK3CB_BAF_1Rnd_HEDP_Grenade_Shell";
+									ammoLeft=1;
+								};
+							};
+							class handgun
+							{
+								name="UK3CB_BAF_L131A1";
+								class primaryMuzzleMag
+								{
+									name="UK3CB_BAF_9_17Rnd";
+									ammoLeft=17;
+								};
+							};
+							class binocular
+							{
+								name="Rangefinder";
+							};
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_Smock_Arctic";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=9;
+									class Item0
+									{
+										name="ACE_bloodIV_500";
+										count=1;
+									};
+									class Item1
+									{
+										name="ACE_fieldDressing";
+										count=5;
+									};
+									class Item2
+									{
+										name="ACRE_PRC148";
+										count=1;
+									};
+									class Item3
+									{
+										name="ACRE_PRC152";
+										count=1;
+									};
+									class Item4
+									{
+										name="ACE_EarPlugs";
+										count=1;
+									};
+									class Item5
+									{
+										name="ACE_epinephrine";
+										count=1;
+									};
+									class Item6
+									{
+										name="ACE_tourniquet";
+										count=2;
+									};
+									class Item7
+									{
+										name="ACE_Flashlight_XL50";
+										count=1;
+									};
+									class Item8
+									{
+										name="ACE_quikclot";
+										count=5;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="UK3CB_BAF_V_PLCE_Webbing_Plate_Winter";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="UK3CB_BAF_556_30Rnd_T";
+										count=10;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="UK3CB_BAF_1Rnd_HEDP_Grenade_Shell";
+										count=12;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="UK3CB_BAF_1Rnd_SmokeOrange_Grenade_shell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="UK3CB_BAF_1Rnd_SmokeBlue_Grenade_shell";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="UK3CB_BAF_B_Bergen_Arctic_SL_A";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=3;
+									class Item0
+									{
+										name="rhs_mag_m67";
+										count=3;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="UK3CB_BAF_556_30Rnd_T";
+										count=5;
+										ammoLeft=30;
+									};
+									class Item2
+									{
+										name="UK3CB_BAF_1Rnd_HE_Grenade_Shell";
+										count=6;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="UK3CB_BAF_LLM_Flashlight_Black";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ACE_Altimeter";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							headgear="UK3CB_BAF_H_Mk7_Win_A";
+						};
 					};
 					id=48;
 					type="UK3CB_BAF_SC_Arctic_REC";
@@ -2695,6 +3075,169 @@ class Mission
 						name="TOUR_player_15";
 						description="1: Team Leader@Broadsword Four";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="UK3CB_BAF_L119A1_SpecterLDS_UKUGL";
+								optics="RKSL_optic_LDS";
+								muzzle="UK3CB_BAF_Silencer_L85";
+								flashlight="UK3CB_BAF_LLM_IR_Black";
+								firemode="UK3CB_BAF_L119A1_SpecterLDS_UKUGL:Single";
+								class primaryMuzzleMag
+								{
+									name="UK3CB_BAF_556_30Rnd_T";
+									ammoLeft=30;
+								};
+								class secondaryMuzzleMag
+								{
+									name="UK3CB_BAF_1Rnd_HEDP_Grenade_Shell";
+									ammoLeft=1;
+								};
+							};
+							class handgun
+							{
+								name="UK3CB_BAF_L131A1";
+								class primaryMuzzleMag
+								{
+									name="UK3CB_BAF_9_17Rnd";
+									ammoLeft=17;
+								};
+							};
+							class binocular
+							{
+								name="Rangefinder";
+							};
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_Smock_Arctic";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=9;
+									class Item0
+									{
+										name="ACE_bloodIV_500";
+										count=1;
+									};
+									class Item1
+									{
+										name="ACE_fieldDressing";
+										count=5;
+									};
+									class Item2
+									{
+										name="ACRE_PRC148";
+										count=1;
+									};
+									class Item3
+									{
+										name="ACRE_PRC152";
+										count=1;
+									};
+									class Item4
+									{
+										name="ACE_EarPlugs";
+										count=1;
+									};
+									class Item5
+									{
+										name="ACE_epinephrine";
+										count=1;
+									};
+									class Item6
+									{
+										name="ACE_tourniquet";
+										count=2;
+									};
+									class Item7
+									{
+										name="ACE_Flashlight_XL50";
+										count=1;
+									};
+									class Item8
+									{
+										name="ACE_quikclot";
+										count=5;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="UK3CB_BAF_V_PLCE_Webbing_Plate_Winter";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="UK3CB_BAF_556_30Rnd_T";
+										count=10;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="UK3CB_BAF_1Rnd_HEDP_Grenade_Shell";
+										count=12;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="UK3CB_BAF_1Rnd_SmokeOrange_Grenade_shell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="UK3CB_BAF_1Rnd_SmokeBlue_Grenade_shell";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="UK3CB_BAF_B_Bergen_Arctic_SL_A";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=3;
+									class Item0
+									{
+										name="rhs_mag_m67";
+										count=3;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="UK3CB_BAF_556_30Rnd_T";
+										count=5;
+										ammoLeft=30;
+									};
+									class Item2
+									{
+										name="UK3CB_BAF_1Rnd_HE_Grenade_Shell";
+										count=6;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="UK3CB_BAF_LLM_Flashlight_Black";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ACE_Altimeter";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							headgear="UK3CB_BAF_H_Mk7_Win_A";
+						};
 					};
 					id=53;
 					type="UK3CB_BAF_SC_Arctic_REC";
@@ -2918,6 +3461,7 @@ class Mission
 					{
 						init="this setgroupID [""BroadSword Four""];";
 						name="TOUR_player_18";
+						isPlayer=1;
 						isPlayable=1;
 					};
 					id=56;
